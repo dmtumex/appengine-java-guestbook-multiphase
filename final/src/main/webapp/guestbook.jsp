@@ -84,7 +84,7 @@
             pageContext.setAttribute("greeting_user", author);
 %>
 <p><b>${fn:escapeXml(greeting_user)}</b> wrote:</p>
-<blockquote>${fn:escapeXml(greeting_content)}</blockquote>
+<blockquote>Your website is awesome!<br />${fn:escapeXml(greeting_content)}</blockquote>
 <%
         }
     }
